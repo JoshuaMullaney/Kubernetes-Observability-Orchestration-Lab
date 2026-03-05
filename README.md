@@ -43,6 +43,7 @@ Built to demonstrate core SRE competencies: container orchestration, liveness/re
 ┌─────────┴──────────┐
 │  health_check.py   │
 │  (external probe)  │
+
 └────────────────────┘
 ```
 
@@ -61,6 +62,7 @@ Built to demonstrate core SRE competencies: container orchestration, liveness/re
 - Prometheus scrapes real-time metrics from all pods across the cluster
 - Grafana dashboards visualize CPU utilisation, memory utilisation, and network usage per namespace and pod
 - AlertManager included for future alerting configuration
+<img width="2538" height="1300" alt="Screenshot 2026-03-05 131322" src="https://github.com/user-attachments/assets/ac43befa-84ce-4893-9d8c-7b2e092cca30" />
 
 ### 3. Python Health Check Script (`health_check.py`)
 - Polls the application endpoint every 15 seconds
@@ -68,6 +70,7 @@ Built to demonstrate core SRE competencies: container orchestration, liveness/re
 - Prints timestamped status lines to the console
 - Prints a rolling summary every 5 checks
 - Exits cleanly on Ctrl+C with a final summary report
+<img width="661" height="359" alt="Screenshot 2026-03-05 132620" src="https://github.com/user-attachments/assets/297ea771-cc5c-4e02-904a-824e17abba6c" />
 
 ---
 
