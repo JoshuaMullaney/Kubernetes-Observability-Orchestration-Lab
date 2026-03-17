@@ -1,4 +1,4 @@
-# Kubernetes SRE Project
+# Kubernetes Observability & Orchestration Lab
 
 A hands-on site reliability engineering project demonstrating Kubernetes deployment, health monitoring, and observability using a production-grade toolstack.
 
